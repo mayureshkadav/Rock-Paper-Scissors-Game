@@ -1,0 +1,56 @@
+.choice
+{
+    height:200px;
+    width: 200px;;
+    background-color: aquamarine;
+    
+  
+}
+#rock
+{
+    background-image:url(".//assets/rock-paper-scissors-296854_1280.png");
+    background-size:cover;
+    border: 2px solid black;
+}
+#paper
+{
+    background-image:url("./assets/paper.webp");
+    background-size:cover;
+    background-position: center;
+      border: 2px solid black;
+}
+#scissor
+{
+    background-image:url("./assets/scissor.webp");
+    background-size:cover;
+      border: 2px solid black;
+}
+#bigbox
+{
+   
+    display:flex;
+    justify-content: space-around;
+}
+
+#result_card
+{
+    background-color: antiquewhite;
+}
+#result
+{
+display:flex;
+justify-content: center;
+}
+
+#result_card
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    
+
+}
+.choice1
+{
+    font-size:40px;
+}
